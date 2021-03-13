@@ -1,0 +1,291 @@
+<!-- Wrapper -->
+<div id="wrapper">
+  <!-- START SECTION HEADINGS -->
+  <!-- Header Container
+        ================================================== -->
+  <header id="header-container" class="header head-tr">
+    <!-- Header -->
+    <div id="header" class="head-tr bottom">
+      <div class="container container-header">
+        <!-- Left Side Content -->
+        <div class="left-side">
+          <!-- Logo -->
+          <div id="logo">
+            <a href="/"><img src="/images/logo-white-blue.svg" data-sticky-logo="/images/logo-blue.svg" alt=""></a>
+          </div>
+          <!-- Mobile Navigation -->
+          <div class="mmenu-trigger">
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <!-- Main Navigation -->
+          <nav id="navigation" class="style-1 head-tr">
+            <ul id="responsive">
+              <li><a href="#">Home</a>
+              </li>
+              <li><a href="contact-us.html">Contact</a></li>
+            </ul>
+          </nav>
+          <!-- Main Navigation / End -->
+        </div>
+        <!-- Left Side Content / End -->
+      </div>
+    </div>
+    <!-- Header / End -->
+  </header>
+  <div class="clearfix"></div>
+  <!-- Header Container / End -->
+  <!-- STAR HEADER SEARCH -->
+  <section id="home" class="parallax-searchs section welcome-area overlay">
+    <div class="hero-main">
+      {{#if country}}
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-inner">
+              <h1 class="title text-center">{{country.name}}</h1>
+            </div>
+          </div>
+          <div class="col-12">
+            <ul class="popular-searchs">
+              <li>
+                <a href="#">
+                  <span class="box">
+                    +{{country.phoneCode}}
+                    <span>Country Calling Code</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    {{country.iso2}}
+                    <span>ISO 2</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    {{country.iso3}}
+                    <span>ISO 3</span>
+                  </span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      {{/if}}
+    </div>
+  </section>
+  <!-- END HEADER SEARCH -->
+<div class="container mt-4 mb-4 mx-4">
+
+
+        <!-- START SECTION HOW IT WORKS -->
+        <section class="how-it-works bg-white">
+            <div class="container">
+                <div class="row service-1">
+                    <article class="col-lg-6 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <div class="art-1 img-13">
+                                <h3>Local Time</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <h4 class="text-center" id="local-time"></h4>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="col-lg-6 col-md-6 col-xs-12 serv">
+                        <div class="serv-flex">
+                            <div class="art-1 img-14">
+                                <h3>Local Weather</h3>
+                            </div>
+                            <div class="service-text-p">
+                                  <div class="col"><h4 class="text-center" id="local-weather"></h4></div>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="how-it-works bg-white">
+            <div class="container">
+                <div class="row service-1">
+                    <article class="col-lg-12 col-md-12 col-xs-12 serv mb-0 pt">
+                        <div class="serv-flex arrow">
+                            <div class="art-1 img-15">
+                                <h3>Description</h3>
+                            </div>
+                            <div class="service-text-p">
+                                <p class="text-center">{{country.about}}</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- END SECTION HOW IT WORKS -->
+
+
+</div>
+
+  <!-- START FOOTER -->
+  <footer class="first-footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="netabout">
+              <a href="index.html" class="logo">
+                <img src="/images/logo-white-blue.svg" alt="netcom">
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam,
+                perspiciatis, aspernatur officiis esse.</p>
+            </div>
+            <div class="contactus">
+              <ul>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="in-p">95 South Park Avenue, USA</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p class="in-p">+456 875 369 208</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p class="in-p ti">support@directoryplus.com</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="widget quick-link clearfix">
+              <h3 class="widget-title">Quick Links</h3>
+              <div class="quick-links">
+                <ul class="one-half mr-5">
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="about.html">About Us</a></li>
+                  <li><a href="listing-details.html">Listing Details</a></li>
+                  <li><a href="dashboard.html">Dashboard</a></li>
+                  <li><a href="register.html">Register</a></li>
+                  <li class="no-pb"><a href="blog-list.html">Blog List</a></li>
+                </ul>
+                <ul class="one-half">
+                  <li><a href="blog-grid.html">Blog</a></li>
+                  <li><a href="pricing-table.html">Pricing</a></li>
+                  <li><a href="contact-us.html">Contact</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="faq.html">Our Faq</a></li>
+                  <li class="no-pb"><a href="listings-full-grid.html">Listings</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="widget">
+              <h3>Instagram</h3>
+              <ul class="photo">
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-1.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-2.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-3.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-4.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-5.jpg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-6.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect mb-0">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-7.jpeg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect mb-0">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-8.jpg" alt=""></a>
+                  </figure>
+                </li>
+                <li class="hover-effect mb-0">
+                  <figure>
+                    <a href="#"><img src="/images/instagram/inst-9.jpeg" alt=""></a>
+                  </figure>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="newsletters">
+              <h3>Newsletters</h3>
+              <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.
+              </p>
+            </div>
+            <form class="bloq-email mailchimp form-inline" method="post">
+              <label for="subscribeEmail" class="error"></label>
+              <div class="email">
+                <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
+                <input type="submit" value="Subscribe">
+                <p class="subscription-success"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-footer">
+      <div class="container">
+        <p>Code-Theme. ©2021 All rights reserved. </p>
+        <ul class="netsocials">
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+  <!-- END FOOTER -->
+
+
+
+  <!-- START PRELOADER -->
+  <div id="preloader">
+    <div id="status">
+      <div class="status-mes"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->

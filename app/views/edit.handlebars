@@ -1,0 +1,135 @@
+<div class="page-wrapper">
+
+    {{> menu}}
+    <!-- PAGE CONTAINER-->
+    <div class="page-container">
+        {{> notification }}
+
+        <!-- MAIN CONTENT-->
+        <div class="main-content">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>Editing ... </strong> {{country.name}}
+                                </div>
+                                <div class="card-body card-block">
+                                    <form action="/dashboard/update" method="post" class="form-horizontal">
+                                        <input type="hidden" name="id" value="{{country._id}}">
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Name</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="name" placeholder="Name"
+                                                    class="form-control" value="{{country.name}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="textarea-input"
+                                                    class=" form-control-label">Description</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <textarea name="about" id="textarea-input" rows="9"
+                                                    placeholder="Content..."
+                                                    class="form-control">{{country.about}}</textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">ISO2</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="iso2" name="iso2" placeholder="ISO2"
+                                                    class="form-control" value="{{country.iso2}}" readonly>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">ISO3</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="iso3" placeholder="ISO3"
+                                                    class="form-control" value="{{country.iso3}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">ISO Numeric</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="isoNumeric"
+                                                    placeholder="ISO Numeric" class="form-control"
+                                                    value="{{country.isoNumeric}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Geo Name ID</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="geoNameId"
+                                                    placeholder="Geo Name ID" class="form-control"
+                                                    value="{{country.geoNameId}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Phone Code</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="phoneCode"
+                                                    placeholder="Phone Code" class="form-control"
+                                                    value="{{country.phoneCode}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Continent</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="continent"
+                                                    placeholder="Continent" class="form-control"
+                                                    value="{{country.continent}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Capital</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="capital" placeholder="Capital"
+                                                    class="form-control" value="{{country.capital}}">
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="text-input" class=" form-control-label">Currency</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <input type="text" id="text-input" name="currency"
+                                                    placeholder="Currency" class="form-control"
+                                                    value="{{country.currency}}">
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Update
+                                        </button>
+                                        <a href="/dashboard" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-backward"></i> Cancel and Back
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{> footer}}
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

@@ -1,0 +1,211 @@
+<!-- Wrapper -->
+<div id="wrapper">
+  <!-- START SECTION HEADINGS -->
+  <!-- Header Container
+        ================================================== -->
+  <header id="header-container" class="header head-tr">
+    <!-- Header -->
+    <div id="header" class="head-tr bottom">
+      <div class="container container-header">
+        <!-- Left Side Content -->
+        <div class="left-side">
+          <!-- Logo -->
+          <div id="logo">
+            <a href="/"><img src="/images/logo-white-blue.svg" data-sticky-logo="/images/logo-blue.svg"
+                alt=""></a>
+          </div>
+          <!-- Mobile Navigation -->
+          <div class="mmenu-trigger">
+            <button class="hamburger hamburger--collapse" type="button">
+              <span class="hamburger-box">
+                <span class="hamburger-inner"></span>
+              </span>
+            </button>
+          </div>
+          <!-- Main Navigation -->
+          <nav id="navigation" class="style-1 head-tr">
+            <ul id="responsive">
+              <li><a href="#">Home</a>
+              </li>
+              <li><a href="#">Contact</a></li>
+              {{#if user}}
+              <li><a href="/dashboard">Dashboard</a></li>
+              {{/if}}
+            </ul>
+          </nav>
+          <!-- Main Navigation / End -->
+        </div>
+        <!-- Left Side Content / End -->
+      </div>
+    </div>
+    <!-- Header / End -->
+  </header>
+  <div class="clearfix"></div>
+  <!-- Header Container / End -->
+  <!-- STAR HEADER SEARCH -->
+  <section id="home" class="parallax-searchs section welcome-area overlay">
+    <div class="hero-main">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="banner-inner">
+              <h1 class="title text-center">Explore Best Places In City</h1>
+              <h5 class="sub-title text-center">Find some of the best tips from around the city from our partners and
+                friends.</h5>
+            </div>
+          </div>
+          <div class="col-12">
+            <div class="banner-search-wrap">
+              <div class="rld-main-search">
+                <div class="row">
+                    <div class="rld-single-select">
+                      {{> select}}
+                    </div>
+                </div>
+              </div>
+            </div>
+            <!-- <ul class="popular-searchs">
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <i class="fas fa-plane"></i>
+                    <span>Travel</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <i class="fas fa-wine-glass-alt"></i>
+                    <span>Restaurant</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <i class="fab fa-gitter"></i>
+                    <span>Events</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <i class="fas fa-dumbbell"></i>
+                    <span>Fitness</span>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <i class="fas fa-pencil-alt"></i>
+                    <span>Arts</span>
+                  </span>
+                </a>
+              </li>
+            </ul> -->
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- END HEADER SEARCH -->
+
+  <!-- START FOOTER -->
+  <footer class="first-footer">
+    <div class="top-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3 col-md-6">
+            <div class="netabout">
+              <a href="index.html" class="logo">
+                <img src="/images/logo-white-blue.svg" alt="netcom">
+              </a>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam,
+                perspiciatis, aspernatur officiis esse.</p>
+            </div>
+            <div class="contactus">
+              <ul>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-map-marker" aria-hidden="true"></i>
+                    <p class="in-p">95 South Park Avenue, USA</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-phone" aria-hidden="true"></i>
+                    <p class="in-p">+456 875 369 208</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="info">
+                    <i class="fa fa-envelope" aria-hidden="true"></i>
+                    <p class="in-p ti">support@directoryplus.com</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="widget quick-link clearfix">
+              <h3 class="widget-title">Quick Links</h3>
+              <div class="quick-links">
+                <ul class="one-half mr-5">
+                  <li><a href="/">Home</a></li>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="/auth">Dashboard</a></li>
+                </ul>
+                <ul class="one-half">
+                  <li><a href="#">Contact</a></li>
+                  <li><a href="#">Support</a></li>
+                  <li><a href="#">Our Faq</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-6 col-md-6">
+            <div class="newsletters">
+              <h3>Newsletters</h3>
+              <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.
+              </p>
+            </div>
+            <form class="bloq-email mailchimp form-inline" method="post">
+              <label for="subscribeEmail" class="error"></label>
+              <div class="email">
+                <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
+                <input type="submit" value="Subscribe">
+                <p class="subscription-success"></p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="second-footer">
+      <div class="container">
+        <p>Code-Theme. ©2021 All rights reserved. </p>
+        <ul class="netsocials">
+          <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+          <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <a data-scroll href="#wrapper" class="go-up"><i class="fa fa-angle-double-up" aria-hidden="true"></i></a>
+  <!-- END FOOTER -->
+
+
+
+  <!-- START PRELOADER -->
+  <div id="preloader">
+    <div id="status">
+      <div class="status-mes"></div>
+    </div>
+  </div>
+  <!-- END PRELOADER -->
