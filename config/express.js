@@ -10,6 +10,7 @@ const methodOverride = require('method-override');
 const exphbs  = require('express-handlebars');
 const session = require("express-session");
 const passport = require("passport");
+const fileUpload = require("express-fileupload");
 
 
 module.exports = (app, config) => {
@@ -17,6 +18,7 @@ module.exports = (app, config) => {
   app.locals.ENV = env;
   app.locals.ENV_DEVELOPMENT = env == 'development';
   
+  app.use(fileUpload());
   require("./passport");
 
   app.engine('handlebars', exphbs({

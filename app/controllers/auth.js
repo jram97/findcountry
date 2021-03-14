@@ -23,7 +23,6 @@ router.get('/auth', async (req, res, next) => {
             newUser.password = await newUser.encryptPassword(user.password);
             await newUser.save();
         }
-        console.log("ADD SUCCESS")
     } catch (error) {
         console.log(error)
     }
@@ -39,7 +38,7 @@ router.post(
         successRedirect: "/dashboard",
         failureRedirect: "/auth",
         badRequestMessage: "Missing credentials.",
-        failureFlash: true,
+        failureFlash: false,
     }),
 );
 

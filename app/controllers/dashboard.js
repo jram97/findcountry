@@ -1,5 +1,6 @@
 const express = require('express');
 const router = express.Router();
+const path = require("path");
 const mongoose = require('mongoose');
 const Country = mongoose.model('Country');
 
@@ -43,5 +44,38 @@ router.post('/dashboard/update', authenticated.isAuthenticated, async (req, res,
     })
 
     res.redirect('/dashboard/update?id=' + id);
+});
 
+router.get('/dashboard/update/flag', authenticated.isAuthenticated, async (req, res, next) => {
+    const data = await Country.findOne({ _id: req.query.id });
+
+    res.render('edit-flag', {
+        layout: "private",
+        country: data._doc || []
+    });
+});
+
+router.post('/dashboard/update/flag', authenticated.isAuthenticated, async (req, res, next) => {
+
+    const { id } = req.body
+
+    const flags = req.files.flag;
+
+
+    let nombreCortado = flags.name.split(".");
+    let extension = nombreCortado[nombreCortado.length - 1];
+    let img = `/flag-${new Date().getMilliseconds()}_${Math.floor(Math.random() * 1000000)}.${extension}`;
+
+    flags.mv(path.join(__dirname + "../../../public/flags" + img), err => {
+        if (err) {
+            console.log(err)
+        }
+        console.log('upload was successful')
+    });
+
+    await Country.findByIdAndUpdate(id, {
+        flag: img
+    })
+
+    res.redirect('/dashboard');
 });

@@ -5,6 +5,9 @@ const CountrySchema = new Schema({
   name: {
     type: String
   },
+  flag: {
+    type: String
+  },
   iso2: {
     type: String,
     index: true

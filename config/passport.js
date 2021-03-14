@@ -12,20 +12,13 @@ passport.use(
     async (email, password, done) => {
       const user = await User.findOne({ email: email });
       if (!user) {
-        console.log("Not User found or Account is disabled");
-        return done(null, false, {
-          message: "Not User found or Account is disabled.",
-        });
+        return done(null, false);
       } else {
         const match = await user.matchPassword(password);
         if (match) {
-          console.log(user);
-
           return done(null, user);
         } else {
-          console.log("pass bad");
-
-          return done(null, false, { message: "Incorrect Password." });
+          return done(null, false);
         }
       }
     }

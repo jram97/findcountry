@@ -7,9 +7,18 @@ module.exports = (app) => {
   app.use('/', router);
 };
 
-router.get('/', (req, res, next) => {
+router.get('/', async (req, res, next) => {
+  const countryList = await Country.find();
+
+  var dataFormat = [];
+
+  for (let index = 0; index < countryList.length; index++) {
+      dataFormat.push(countryList[index]._doc);
+  }
+
   res.render('index', {
-    title: 'Find Country'
+    title: 'Find Country',
+    country: dataFormat || []
   });
 });
 
