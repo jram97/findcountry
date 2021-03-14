@@ -45,5 +45,5 @@ router.post(
 
 router.get("/auth/logout", async (req, res) => {
     req.logout();
-    res.redirect("/auth");
+    res.redirect("/");
 });
