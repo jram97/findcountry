@@ -2,7 +2,7 @@ name,iso2,iso3,isoNumeric,geoNameId,phoneCode,continent,capital,currency
 Afganistan (Afghanistan),AF,AFG,4,1149361,93,Asia,Kabul,Afghani
 Arnavutluk (Albania),AL,ALB,8,783754,355,Europe,Tirana,Lek
 Cezayir (Algeria),DZ,DZA,12,2589581,213,Africa,Algiers,Dinar
-Amerikan Samoas����鰹申鐃�erican Samoa),AS,ASM,16,5880801,1-684,Oceania,Pago Pago,Dollar
+Amerikan Samoası (American Samoa),AS,ASM,16,5880801,1-684,Oceania,Pago Pago,Dollar
 Andorra (Andorra),AD,AND,20,3041565,376,Europe,Andorra la Vella,Euro
 Angola (Angola),AO,AGO,24,3351879,244,Africa,Luanda,Kwanza
 Anguilla (Anguilla),AI,AIA,660,3573511,1-264,North America,The Valley,Dollar
@@ -16,10 +16,10 @@ Avusturya (Austria),AT,AUT,40,2782113,43,Europe,Vienna,Euro
 Azerbaycan (Azerbaijan),AZ,AZE,31,587116,994,Asia,Baku,Manat
 Bahamalar (Bahamas),BS,BHS,44,3572887,1-242,North America,Nassau,Dollar
 Bahreyn (Bahrain),BH,BHR,48,290291,973,Asia,Manama,Dinar
-Banglade����鰹申鐃�ngladesh),BD,BGD,50,1210997,880,Asia,Dhaka,Taka
+Bangladeş (Bangladesh),BD,BGD,50,1210997,880,Asia,Dhaka,Taka
 Barbados (Barbados),BB,BRB,52,3374084,1-246,North America,Bridgetown,Dollar
 Belarus (Belarus),BY,BLR,112,630336,375,Europe,Minsk,Ruble
-Bel����鰹申鐃�(Belgium),BE,BEL,56,2802361,32,Europe,Brussels,Euro
+Belçika (Belgium),BE,BEL,56,2802361,32,Europe,Brussels,Euro
 Belize (Belize),BZ,BLZ,84,3582678,501,North America,Belmopan,Dollar
 Benin (Benin),BJ,BEN,204,2395170,229,Africa,Porto-Novo,Franc
 Bermuda (Bermuda),BM,BMU,60,3573345,1-441,North America,Hamilton,Dollar
@@ -28,59 +28,59 @@ Bolivya (Bolivia),BO,BOL,68,3923057,591,South America,Sucre,Boliviano
 Bosna Hersek (Bosnia and Herzegovina),BA,BIH,70,3277605,387,Europe,Sarajevo,Marka
 Botsvana (Botswana),BW,BWA,72,933860,267,Africa,Gaborone,Pula
 Brezilya (Brazil),BR,BRA,76,3469034,55,South America,Brasilia,Real
-����鰹申鐃�iz Hint Okyanusu B����鰹申鐃�i (British Indian Ocean Territory),IO,IOT,86,1282588,246,Asia,Diego Garcia,Dollar
-Britanya Virjin Adalar����鰹申鐃�itish Virgin Islands),VG,VGB,92,3577718,1-284,North America,Road Town,Dollar
+İngiliz Hint Okyanusu Bölgesi (British Indian Ocean Territory),IO,IOT,86,1282588,246,Asia,Diego Garcia,Dollar
+Britanya Virjin Adaları (British Virgin Islands),VG,VGB,92,3577718,1-284,North America,Road Town,Dollar
 Brunei (Brunei),BN,BRN,96,1820814,673,Asia,Bandar Seri Begawan,Dollar
 Bulgaristan (Bulgaria),BG,BGR,100,732800,359,Europe,Sofia,Lev
 Burkina Faso (Burkina Faso),BF,BFA,854,2361809,226,Africa,Ouagadougou,Franc
 Burundi (Burundi),BI,BDI,108,433561,257,Africa,Bujumbura,Franc
-Kambo����鰹申鐃�Cambodia),KH,KHM,116,1831722,855,Asia,Phnom Penh,Riels
+Kamboçya (Cambodia),KH,KHM,116,1831722,855,Asia,Phnom Penh,Riels
 Kamerun (Cameroon),CM,CMR,120,2233387,237,Africa,Yaounde,Franc
 Kanada (Canada),CA,CAN,124,6251999,1,North America,Ottawa,Dollar
 Cape Verde (Cape Verde),CV,CPV,132,3374766,238,Africa,Praia,Escudo
-Cayman Adalar����鰹申鐃�yman Islands),KY,CYM,136,3580718,1-345,North America,George Town,Dollar
+Cayman Adaları (Cayman Islands),KY,CYM,136,3580718,1-345,North America,George Town,Dollar
 Orta Afrika Cumhuriyeti (Central African Republic),CF,CAF,140,239880,236,Africa,Bangui,Franc
-����鰹申鐃�Chad),TD,TCD,148,2434508,235,Africa,N'Djamena,Franc
-����鰹申鐃�(Chile),CL,CHL,152,3895114,56,South America,Santiago,Peso
-����鰹申鐃�China),CN,CHN,156,1814991,86,Asia,Beijing,Yuan Renminbi
-Noel Adas����鰹申鐃�ristmas Island),CX,CXR,162,2078138,61,Asia,Flying Fish Cove,Dollar
-Cocos Adalar����鰹申鐃�cos Islands),CC,CCK,166,1547376,61,Asia,West Island,Dollar
+Çad (Chad),TD,TCD,148,2434508,235,Africa,N'Djamena,Franc
+Şili (Chile),CL,CHL,152,3895114,56,South America,Santiago,Peso
+Çin (China),CN,CHN,156,1814991,86,Asia,Beijing,Yuan Renminbi
+Noel Adası (Christmas Island),CX,CXR,162,2078138,61,Asia,Flying Fish Cove,Dollar
+Cocos Adaları (Cocos Islands),CC,CCK,166,1547376,61,Asia,West Island,Dollar
 Kolombiya (Colombia),CO,COL,170,3686110,57,South America,Bogota,Peso
 Komorlar (Comoros),KM,COM,174,921929,269,Africa,Moroni,Franc
-Cook Adalar����鰹申鐃�ok Islands),CK,COK,184,1899402,682,Oceania,Avarua,Dollar
+Cook Adaları (Cook Islands),CK,COK,184,1899402,682,Oceania,Avarua,Dollar
 Kosta Rika (Costa Rica),CR,CRI,188,3624060,506,North America,San Jose,Colon
-H����鰹申鐃�istan (Croatia),HR,HRV,191,3202326,385,Europe,Zagreb,Kuna
-K����鰹申鐃�Cuba),CU,CUB,192,3562981,53,North America,Havana,Peso
+Hırvatistan (Croatia),HR,HRV,191,3202326,385,Europe,Zagreb,Kuna
+Küba (Cuba),CU,CUB,192,3562981,53,North America,Havana,Peso
 Curacao (Curacao),CW,CUW,531,7626836,599,North America,Willemstad,Guilder
-K����鰹申薜合����鐃�Cyprus),CY,CYP,196,146669,357,Europe,Nicosia,Euro
-����鰹申鐃�umhuriyeti (Czech Republic),CZ,CZE,203,3077311,420,Europe,Prague,Koruna
+Kıbrıs (Cyprus),CY,CYP,196,146669,357,Europe,Nicosia,Euro
+Çek Cumhuriyeti (Czech Republic),CZ,CZE,203,3077311,420,Europe,Prague,Koruna
 Kongo Demokratik Cumhuriyeti (Democratic Republic of the Congo),CD,COD,180,203312,243,Africa,Kinshasa,Franc
 Danimarka (Denmark),DK,DNK,208,2623032,45,Europe,Copenhagen,Krone
 Cibuti (Djibouti),DJ,DJI,262,223816,253,Africa,Djibouti,Franc
 Dominika (Dominica),DM,DMA,212,3575830,1-767,North America,Roseau,Dollar
 Dominik Cumhuriyeti (Dominican Republic),DO,DOM,214,3508796,1-809, 1-829, 1-849,North America
-Do����鰹申鐃�mor (East Timor),TL,TLS,626,1966436,670,Oceania,Dili,Dollar
+Doğu Timor (East Timor),TL,TLS,626,1966436,670,Oceania,Dili,Dollar
 Ekvador (Ecuador),EC,ECU,218,3658394,593,South America,Quito,Dollar
-M����渇�膩����申Egypt),EG,EGY,818,357994,20,Africa,Cairo,Pound
+Mısır (Egypt),EG,EGY,818,357994,20,Africa,Cairo,Pound
 El Salvador (El Salvador),SV,SLV,222,3585968,503,North America,San Salvador,Dollar
 Ekvator Ginesi (Equatorial Guinea),GQ,GNQ,226,2309096,240,Africa,Malabo,Franc
 Eritre (Eritrea),ER,ERI,232,338010,291,Africa,Asmara,Nakfa
 Estonya (Estonia),EE,EST,233,453733,372,Europe,Tallinn,Euro
 Etiyopya (Ethiopia),ET,ETH,231,337996,251,Africa,Addis Ababa,Birr
-Falkland adalar����鰹申鐃�lkland Islands),FK,FLK,238,3474414,500,South America,Stanley,Pound
-Faroe Adalar����鰹申鐃�roe Islands),FO,FRO,234,2622320,298,Europe,Torshavn,Krone
+Falkland adaları (Falkland Islands),FK,FLK,238,3474414,500,South America,Stanley,Pound
+Faroe Adaları (Faroe Islands),FO,FRO,234,2622320,298,Europe,Torshavn,Krone
 Fiji (Fiji),FJ,FJI,242,2205218,679,Oceania,Suva,Dollar
 Finlandiya (Finland),FI,FIN,246,660013,358,Europe,Helsinki,Euro
 Fransa (France),FR,FRA,250,3017382,33,Europe,Paris,Euro
-Frans����鰹申鐃�linezyas����鰹申鐃�ench Polynesia),PF,PYF,258,4030656,689,Oceania,Papeete,Franc
+Fransız Polinezyası (French Polynesia),PF,PYF,258,4030656,689,Oceania,Papeete,Franc
 Gabon (Gabon),GA,GAB,266,2400553,241,Africa,Libreville,Franc
 Gambiya (Gambia),GM,GMB,270,2413451,220,Africa,Banjul,Dalasi
-G����鰹申鐃�tan (Georgia),GE,GEO,268,614540,995,Asia,Tbilisi,Lari
+Gürcistan (Georgia),GE,GEO,268,614540,995,Asia,Tbilisi,Lari
 Almanya (Germany),DE,DEU,276,2921044,49,Europe,Berlin,Euro
 Gana (Ghana),GH,GHA,288,2300660,233,Africa,Accra,Cedi
-Cebelitar����鰹申鐃�ibraltar),GI,GIB,292,2411586,350,Europe,Gibraltar,Pound
+Cebelitarık (Gibraltar),GI,GIB,292,2411586,350,Europe,Gibraltar,Pound
 Yunanistan (Greece),GR,GRC,300,390903,30,Europe,Athens,Euro
-Gr����鰹申鐃�d (Greenland),GL,GRL,304,3425505,299,North America,Nuuk,Krone
+Grönland (Greenland),GL,GRL,304,3425505,299,North America,Nuuk,Krone
 Grenada (Grenada),GD,GRD,308,3580239,1-473,North America,St. George's,Dollar
 Guam (Guam),GU,GUM,316,4043988,1-671,Oceania,Hagatna,Dollar
 Guatemala (Guatemala),GT,GTM,320,3595528,502,North America,Guatemala City,Quetzal
@@ -92,35 +92,35 @@ Haiti (Haiti),HT,HTI,332,3723988,509,North America,Port-au-Prince,Gourde
 Honduras (Honduras),HN,HND,340,3608932,504,North America,Tegucigalpa,Lempira
 Hong Kong (Hong Kong),HK,HKG,344,1819730,852,Asia,Hong Kong,Dollar
 Macaristan (Hungary),HU,HUN,348,719819,36,Europe,Budapest,Forint
-����鰹申鐃�da (Iceland),IS,ISL,352,2629691,354,Europe,Reykjavik,Krona
+İzlanda (Iceland),IS,ISL,352,2629691,354,Europe,Reykjavik,Krona
 Hindistan (India),IN,IND,356,1269750,91,Asia,New Delhi,Rupee
 Endonezya (Indonesia),ID,IDN,360,1643084,62,Asia,Jakarta,Rupiah
-����鰹申鐃�(Iran),IR,IRN,364,130758,98,Asia,Tehran,Rial
+İran (Iran),IR,IRN,364,130758,98,Asia,Tehran,Rial
 Irak (Iraq),IQ,IRQ,368,99237,964,Asia,Baghdad,Dinar
-����鰹申鐃�da (Ireland),IE,IRL,372,2963597,353,Europe,Dublin,Euro
-Man Adas����鰹申鐃�le of Man),IM,IMN,833,3042225,44-1624,Europe,Douglas, Isle of Man
-����鰹申鐃�l (Israel),IL,ISR,376,294640,972,Asia,Jerusalem,Shekel
-����鰹申鐃�a (Italy),IT,ITA,380,3175395,39,Europe,Rome,Euro
-Fildi����鰹申鐃�hili (Ivory Coast),CI,CIV,384,2287781,225,Africa,Yamoussoukro,Franc
+İrlanda (Ireland),IE,IRL,372,2963597,353,Europe,Dublin,Euro
+Man Adası (Isle of Man),IM,IMN,833,3042225,44-1624,Europe,Douglas, Isle of Man
+İsrail (Israel),IL,ISR,376,294640,972,Asia,Jerusalem,Shekel
+İtalya (Italy),IT,ITA,380,3175395,39,Europe,Rome,Euro
+Fildişi Sahili (Ivory Coast),CI,CIV,384,2287781,225,Africa,Yamoussoukro,Franc
 Jamaika (Jamaica),JM,JAM,388,3489940,1-876,North America,Kingston,Dollar
 Japonya (Japan),JP,JPN,392,1861060,81,Asia,Tokyo,Yen
 Jersey (Jersey),JE,JEY,832,3042142,44-1534,Europe,Saint Helier,Pound
-����鰹申薜合����鐃�Jordan),JO,JOR,400,248816,962,Asia,Amman,Dinar
+Ürdün (Jordan),JO,JOR,400,248816,962,Asia,Amman,Dinar
 Kazakistan (Kazakhstan),KZ,KAZ,398,1522867,7,Asia,Astana,Tenge
 Kenya (Kenya),KE,KEN,404,192950,254,Africa,Nairobi,Shilling
 Kiribati (Kiribati),KI,KIR,296,4030945,686,Oceania,Tarawa,Dollar
 Kosova (Kosovo),XK,XKX,0,831053,383,Europe,Pristina,Euro
 Kuveyt (Kuwait),KW,KWT,414,285570,965,Asia,Kuwait City,Dinar
-K����鰹申薜合����鐃�tan (Kyrgyzstan),KG,KGZ,417,1527747,996,Asia,Bishkek,Som
+Kırgızistan (Kyrgyzstan),KG,KGZ,417,1527747,996,Asia,Bishkek,Som
 Laos (Laos),LA,LAO,418,1655842,856,Asia,Vientiane,Kip
 Letonya (Latvia),LV,LVA,428,458258,371,Europe,Riga,Euro
-L����鰹申鐃� (Lebanon),LB,LBN,422,272103,961,Asia,Beirut,Pound
+Lübnan (Lebanon),LB,LBN,422,272103,961,Asia,Beirut,Pound
 Lesoto (Lesotho),LS,LSO,426,932692,266,Africa,Maseru,Loti
 Liberya (Liberia),LR,LBR,430,2275384,231,Africa,Monrovia,Dollar
 Libya (Libya),LY,LBY,434,2215636,218,Africa,Tripolis,Dinar
-Lihten����鰹申鐃� (Liechtenstein),LI,LIE,438,3042058,423,Europe,Vaduz,Franc
+Lihtenştayn (Liechtenstein),LI,LIE,438,3042058,423,Europe,Vaduz,Franc
 Litvanya (Lithuania),LT,LTU,440,597427,370,Europe,Vilnius,Euro
-L����鰹申鐃�burg (Luxembourg),LU,LUX,442,2960313,352,Europe,Luxembourg,Euro
+Lüksemburg (Luxembourg),LU,LUX,442,2960313,352,Europe,Luxembourg,Euro
 Makao (Macau),MO,MAC,446,1821275,853,Asia,Macao,Pataca
 Makedonya (Macedonia),MK,MKD,807,718075,389,Europe,Skopje,Denar
 Madagaskar (Madagascar),MG,MDG,450,1062947,261,Africa,Antananarivo,Ariary
@@ -129,7 +129,7 @@ Malezya (Malaysia),MY,MYS,458,1733045,60,Asia,Kuala Lumpur,Ringgit
 Maldivler (Maldives),MV,MDV,462,1282028,960,Asia,Male,Rufiyaa
 Mali (Mali),ML,MLI,466,2453866,223,Africa,Bamako,Franc
 Malta (Malta),MT,MLT,470,2562770,356,Europe,Valletta,Euro
-Mar����鰹申鐃�dalar����鰹申鐃�rshall Islands),MH,MHL,584,2080185,692,Oceania,Majuro,Dollar
+Marşal Adaları (Marshall Islands),MH,MHL,584,2080185,692,Oceania,Majuro,Dollar
 Moritanya (Mauritania),MR,MRT,478,2378080,222,Africa,Nouakchott,Ouguiya
 Mauritius (Mauritius),MU,MUS,480,934292,230,Africa,Port Louis,Rupee
 Mayotte (Mayotte),YT,MYT,175,1024031,262,Africa,Mamoudzou,Euro
@@ -137,8 +137,8 @@ Meksika (Mexico),MX,MEX,484,3996063,52,North America,Mexico City,Peso
 Mikronezya (Micronesia),FM,FSM,583,2081918,691,Oceania,Palikir,Dollar
 Moldova (Moldova),MD,MDA,498,617790,373,Europe,Chisinau,Leu
 Monako (Monaco),MC,MCO,492,2993457,377,Europe,Monaco,Euro
-Mo����鰹申鐃�tan (Mongolia),MN,MNG,496,2029969,976,Asia,Ulan Bator,Tugrik
-Karada����鰹申鐃�ntenegro),ME,MNE,499,3194884,382,Europe,Podgorica,Euro
+Moğolistan (Mongolia),MN,MNG,496,2029969,976,Asia,Ulan Bator,Tugrik
+Karadağ (Montenegro),ME,MNE,499,3194884,382,Europe,Podgorica,Euro
 Montserrat (Montserrat),MS,MSR,500,3578097,1-664,North America,Plymouth,Dollar
 Fas (Morocco),MA,MAR,504,2542007,212,Africa,Rabat,Dirham
 Mozambik (Mozambique),MZ,MOZ,508,1036973,258,Africa,Maputo,Metical
@@ -155,8 +155,8 @@ Nijer (Niger),NE,NER,562,2440476,227,Africa,Niamey,Franc
 Nijerya (Nigeria),NG,NGA,566,2328926,234,Africa,Abuja,Naira
 Niue (Niue),NU,NIU,570,4036232,683,Oceania,Alofi,Dollar
 Kuzey Kore (North Korea),KP,PRK,408,1873107,850,Asia,Pyongyang,Won
-Kuzey Mariana Adalar����鰹申鐃�rthern Mariana Islands),MP,MNP,580,4041468,1-670,Oceania,Saipan,Dollar
-Norve����鰹申鐃�rway),NO,NOR,578,3144096,47,Europe,Oslo,Krone
+Kuzey Mariana Adaları (Northern Mariana Islands),MP,MNP,580,4041468,1-670,Oceania,Saipan,Dollar
+Norveç (Norway),NO,NOR,578,3144096,47,Europe,Oslo,Krone
 Umman (Oman),OM,OMN,512,286963,968,Asia,Muscat,Rial
 Pakistan (Pakistan),PK,PAK,586,1168579,92,Asia,Islamabad,Rupee
 Palau (Palau),PW,PLW,585,1559582,680,Oceania,Melekeok,Dollar
@@ -188,26 +188,26 @@ San Marino (San Marino),SM,SMR,674,3168068,378,Europe,San Marino,Euro
 Sao Tome ve Principe (Sao Tome and Principe),ST,STP,678,2410758,239,Africa,Sao Tome,Dobra
 Suudi Arabistan (Saudi Arabia),SA,SAU,682,102358,966,Asia,Riyadh,Rial
 Senegal (Senegal),SN,SEN,686,2245662,221,Africa,Dakar,Franc
-S����鰹申鐃�tan (Serbia),RS,SRB,688,6290252,381,Europe,Belgrade,Dinar
-Sey����鰹申鐃�r (Seychelles),SC,SYC,690,241170,248,Africa,Victoria,Rupee
+Sırbistan (Serbia),RS,SRB,688,6290252,381,Europe,Belgrade,Dinar
+Seyşeller (Seychelles),SC,SYC,690,241170,248,Africa,Victoria,Rupee
 Sierra Leone (Sierra Leone),SL,SLE,694,2403846,232,Africa,Freetown,Leone
 Singapur (Singapore),SG,SGP,702,1880251,65,Asia,Singapore,Dollar
 Sint Maarten (Sint Maarten),SX,SXM,534,7609695,1-721,North America,Philipsburg,Guilder
 Slovakya (Slovakia),SK,SVK,703,3057568,421,Europe,Bratislava,Euro
 Slovenya (Slovenia),SI,SVN,705,3190538,386,Europe,Ljubljana,Euro
-Solomon Adalar����鰹申鐃�lomon Islands),SB,SLB,90,2103350,677,Oceania,Honiara,Dollar
+Solomon Adaları (Solomon Islands),SB,SLB,90,2103350,677,Oceania,Honiara,Dollar
 Somali (Somalia),SO,SOM,706,51537,252,Africa,Mogadishu,Shilling
-G����鰹申鐃�Afrika (South Africa),ZA,ZAF,710,953987,27,Africa,Pretoria,Rand
-G����鰹申鐃�Kore (South Korea),KR,KOR,410,1835841,82,Asia,Seoul,Won
-G����鰹申鐃�Sudan (South Sudan),SS,SSD,728,7909807,211,Africa,Juba,Pound
+Güney Afrika (South Africa),ZA,ZAF,710,953987,27,Africa,Pretoria,Rand
+Güney Kore (South Korea),KR,KOR,410,1835841,82,Asia,Seoul,Won
+Güney Sudan (South Sudan),SS,SSD,728,7909807,211,Africa,Juba,Pound
 ispanya (Spain),ES,ESP,724,2510769,34,Europe,Madrid,Euro
 Sri Lanka (Sri Lanka),LK,LKA,144,1227603,94,Asia,Colombo,Rupee
 Sudan (Sudan),SD,SDN,729,366755,249,Africa,Khartoum,Pound
 Surinam (Suriname),SR,SUR,740,3382998,597,South America,Paramaribo,Dollar
 Svalbard ve Jan Mayen (Svalbard and Jan Mayen),SJ,SJM,744,607072,47,Europe,Longyearbyen,Krone
 Svaziland (Swaziland),SZ,SWZ,748,934841,268,Africa,Mbabane,Lilangeni
-����鰹申鐃初�膩��鐃緒申weden),SE,SWE,752,2661886,46,Europe,Stockholm,Krona
-����鰹申鐃初�膩��鐃緒申(Switzerland),CH,CHE,756,2658434,41,Europe,Berne,Franc
+İsveç (Sweden),SE,SWE,752,2661886,46,Europe,Stockholm,Krona
+İsviçre (Switzerland),CH,CHE,756,2658434,41,Europe,Berne,Franc
 Suriye (Syria),SY,SYR,760,163843,963,Asia,Damascus,Pound
 Tayvan (Taiwan),TW,TWN,158,1668284,886,Asia,Taipei,Dollar
 Tacikistan (Tajikistan),TJ,TJK,762,1220409,992,Asia,Dushanbe,Somoni
@@ -218,24 +218,24 @@ Tokelau (Tokelau),TK,TKL,772,4031074,690,Oceania,,Dollar
 Tonga (Tonga),TO,TON,776,4032283,676,Oceania,Nuku'alofa,Pa'anga
 Trinidad ve Tobago (Trinidad and Tobago),TT,TTO,780,3573591,1-868,North America,Port of Spain,Dollar
 Tunus (Tunisia),TN,TUN,788,2464461,216,Africa,Tunis,Dinar
-T����鰹申鐃�e (Turkey),TR,TUR,792,298795,90,Asia,Ankara,Lira
-T����鰹申鐃�nistan (Turkmenistan),TM,TKM,795,1218197,993,Asia,Ashgabat,Manat
-Turks ve Caicos Adalar����鰹申鐃�rks and Caicos Islands),TC,TCA,796,3576916,1-649,North America,Cockburn Town,Dollar
+Türkiye (Turkey),TR,TUR,792,298795,90,Asia,Ankara,Lira
+Türkmenistan (Turkmenistan),TM,TKM,795,1218197,993,Asia,Ashgabat,Manat
+Turks ve Caicos Adaları (Turks and Caicos Islands),TC,TCA,796,3576916,1-649,North America,Cockburn Town,Dollar
 Tuvalu (Tuvalu),TV,TUV,798,2110297,688,Oceania,Funafuti,Dollar
-Amerika Birle����鰹申鐃�evletleri Virgin Adalar����鰹申鐃�S. Virgin Islands),VI,VIR,850,4796775,1-340,North America,Charlotte Amalie,Dollar
+Amerika Birleşik Devletleri Virgin Adaları (U.S. Virgin Islands),VI,VIR,850,4796775,1-340,North America,Charlotte Amalie,Dollar
 Uganda (Uganda),UG,UGA,800,226074,256,Africa,Kampala,Shilling
 Ukrayna (Ukraine),UA,UKR,804,690791,380,Europe,Kiev,Hryvnia
-Birle����鰹申鐃�rap Emirlikleri (United Arab Emirates),AE,ARE,784,290557,971,Asia,Abu Dhabi,Dirham
-Birle����鰹申鐃�rall����鰹申鐃�nited Kingdom),GB,GBR,826,2635167,44,Europe,London,Pound
-Amerika Birle����鰹申鐃�evletleri (United States),US,USA,840,6252001,1,North America,Washington,Dollar
+Birleşik Arap Emirlikleri (United Arab Emirates),AE,ARE,784,290557,971,Asia,Abu Dhabi,Dirham
+Birleşik Krallık (United Kingdom),GB,GBR,826,2635167,44,Europe,London,Pound
+Amerika Birleşik Devletleri (United States),US,USA,840,6252001,1,North America,Washington,Dollar
 Uruguay (Uruguay),UY,URY,858,3439705,598,South America,Montevideo,Peso
-����鰹申鐃�istan (Uzbekistan),UZ,UZB,860,1512440,998,Asia,Tashkent,Som
+Özbekistan (Uzbekistan),UZ,UZB,860,1512440,998,Asia,Tashkent,Som
 Vanuatu (Vanuatu),VU,VUT,548,2134431,678,Oceania,Port Vila,Vatu
 Vatikan (Vatican),VA,VAT,336,3164670,379,Europe,Vatican City,Euro
 Venezuela (Venezuela),VE,VEN,862,3625428,58,South America,Caracas,Bolivar
 Vietnam (Vietnam),VN,VNM,704,1562822,84,Asia,Hanoi,Dong
 Wallis ve Futuna (Wallis and Futuna),WF,WLF,876,4034749,681,Oceania,Mata Utu,Franc
-Bat����鰹申鐃�ra (Western Sahara),EH,ESH,732,2461445,212,Africa,El-Aaiun,Dirham
+Batı Sahra (Western Sahara),EH,ESH,732,2461445,212,Africa,El-Aaiun,Dirham
 Yemen (Yemen),YE,YEM,887,69543,967,Asia,Sanaa,Rial
 Zambiya (Zambia),ZM,ZMB,894,895949,260,Africa,Lusaka,Kwacha
 Zimbabve (Zimbabwe),ZW,ZWE,716,878675,263,Africa,Harare,Dollar
