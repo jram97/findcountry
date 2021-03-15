@@ -1,11 +1,7 @@
 <div class="page-wrapper">
-
     {{> menu}}
-    <!-- PAGE CONTAINER-->
     <div class="page-container">
         {{> notification }}
-
-        <!-- MAIN CONTENT-->
         <div class="main-content">
             <div class="section__content section__content--p30">
                 <div class="container-fluid">
@@ -16,15 +12,16 @@
                                     <strong>Editing ... </strong> {{country.name}}
                                 </div>
                                 <div class="card-body card-block">
-                                    <form action="/dashboard/update/flag" method="post" class="form-horizontal" enctype="multipart/form-data">
+                                    <form action="/dashboard/update/flag" method="post" class="form-horizontal"
+                                        enctype="multipart/form-data">
                                         <input type="hidden" name="id" value="{{country._id}}">
                                         <div class="row form-group">
                                             <div class="col col-md-3">
                                                 <label for="text-input" class=" form-control-label">Upload flag</label>
                                             </div>
                                             <div class="col-12 col-md-9">
-                                                <input type="file" id="text-input" name="flag" placeholder="Name" required
-                                                    class="form-control">
+                                                <input type="file" id="text-input" name="flag" placeholder="Name"
+                                                    required class="form-control">
                                             </div>
                                         </div>
                                         <button type="submit" class="btn btn-primary btn-sm">
@@ -43,5 +40,4 @@
             </div>
         </div>
     </div>
-
 </div>

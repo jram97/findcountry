@@ -2,42 +2,79 @@
     <!-- START SECTION HOW IT WORKS -->
     <section class="how-it-works bg-white">
         <div class="container">
+            <h2 class="title text-center">ÜLKE KODLARI</h2>
             <div class="row service-1">
                 <div class="col-lg-12 col-md-12 col-xs-12 ">
-
                     <table class="table table-bordered table-striped">
                         <thead>
                             <tr>
+                                {{#if show.flag}}
                                 <th>FLAG</th>
+                                {{/if}}
+                                {{#if show.name}}
                                 <th>COUNTRY NAME</th>
-                                <th>COUNTRY CODE</th>
-                                <th>ISO CODES</th>
+                                {{/if}}
+                                {{#if show.phoneCode}}
+                                <th>PHONE CODE</th>
+                                {{/if}}
+                                {{#if show.iso2}}
+                                <th>ISO 2</th>
+                                {{/if}}
+                                {{#if show.iso3}}
+                                <th>ISO 3</th>
+                                {{/if}}
+                                {{#if show.continent}}
                                 <th>CONTINENT</th>
+                                {{/if}}
+                                {{#if show.isoNumeric}}
+                                <th>ISO NUMERIC</th>
+                                {{/if}}
+                                {{#if show.capital}}
                                 <th>CAPITAL</th>
+                                {{/if}}
+                                {{#if show.currency}}
                                 <th>CURRENCY</th>
-
-
+                                {{/if}}
                             </tr>
                         </thead>
                         <tbody>
                             {{#each country}}
                             <tr>
+                                {{#if ../show.flag}}
                                 <th>
                                     {{#if flag}}
-                                        <img src="/flags{{flag}}" width="30px" height="30px" />
+                                    <img src="/flags{{flag}}" width="30px" height="30px" />
                                     {{/if}}
                                 </th>
+                                {{/if}}
+                                {{#if ../show.name}}
                                 <th scope="row"><a href="/details?country={{iso2}}">{{name}}</a></th>
+                                {{/if}}
+                                {{#if ../show.phoneCode}}
                                 <td>{{phoneCode}}</td>
-                                <td>{{iso2}} / {{iso3}}</td>
+                                {{/if}}
+                                {{#if ../show.iso2}}
+                                <td>{{iso2}}</td>
+                                {{/if}}
+                                {{#if ../show.iso3}}
+                                <td>{{iso3}}</td>
+                                {{/if}}
+                                {{#if ../show.continet}}
                                 <td>{{continent}}</td>
+                                {{/if}}
+                                {{#if ../show.isoNumeric}}
+                                <td>{{isoNumeric}}</td>
+                                {{/if}}
+                                {{#if ../show.capital}}
                                 <td>{{capital}}</td>
+                                {{/if}}
+                                {{#if ../show.currency}}
                                 <td>{{currency}}</td>
+                                {{/if}}
                             </tr>
                             {{/each}}
                         </tbody>
                     </table>
-
                 </div>
             </div>
         </div>

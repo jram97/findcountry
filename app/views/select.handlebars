@@ -1,0 +1,164 @@
+<div class="page-wrapper">
+    {{> menu}}
+    <div class="page-container">
+        {{> notification }}
+        <div class="main-content">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>Filter on main table </strong>
+                                </div>
+                                <div class="card-body card-block">
+                                    <form action="/dashboard/update/table" method="post" class="form-horizontal"
+                                        enctype="multipart/form-data">
+                                        <input type="hidden" name="id" value="{{table._id}}">
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Name</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="name" id="select" class="form-control">
+                                                    <option value="{{table.name}}" hidden="hidden" selected="selected">
+                                                        {{textFormat table.name}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Flag</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="flag" id="select" class="form-control">
+                                                    <option value="{{table.flag}}" hidden="hidden" selected="selected">
+                                                        {{textFormat table.flag}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">ISO 2</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="iso2" id="select" class="form-control">
+                                                    <option value="{{table.iso2}}" hidden="hidden" selected="selected">
+                                                        {{textFormat table.iso2}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">ISO 3</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="iso3" id="select" class="form-control">
+                                                    <option value="{{table.iso3}}" hidden="hidden" selected="selected">
+                                                        {{textFormat table.iso3}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Iso Numeric</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="isoNumeric" id="select" class="form-control">
+                                                    <option value="{{table.isoNumeric}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.isoNumeric}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Geo Name ID</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="geoNameId" id="select" class="form-control">
+                                                    <option value="{{table.geoNameId}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.geoNameId}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Phone Code</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="phoneCode" id="select" class="form-control">
+                                                    <option value="{{table.phoneCode}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.phoneCode}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Continent</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="continent" id="select" class="form-control">
+                                                    <option value="{{table.continent}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.continent}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Capital</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="capital" id="select" class="form-control">
+                                                    <option value="{{table.capital}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.capital}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <div class="row form-group">
+                                            <div class="col col-md-3">
+                                                <label for="select" class=" form-control-label">Currency</label>
+                                            </div>
+                                            <div class="col-12 col-md-9">
+                                                <select name="currency" id="select" class="form-control">
+                                                    <option value="{{table.currency}}" hidden="hidden"
+                                                        selected="selected">{{textFormat table.currency}}</option>
+                                                    <option value="1">Visible</option>
+                                                    <option value="0">Hidden</option>
+                                                </select>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="btn btn-primary btn-sm">
+                                            <i class="fa fa-dot-circle-o"></i> Update
+                                        </button>
+                                        <a href="/dashboard" class="btn btn-danger btn-sm">
+                                            <i class="fa fa-backward"></i> Cancel and Back
+                                        </a>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{> footer}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

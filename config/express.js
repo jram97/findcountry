@@ -24,7 +24,8 @@ module.exports = (app, config) => {
   app.engine('handlebars', exphbs({
     layoutsDir: config.root + '/app/views/layouts/',
     defaultLayout: 'main',
-    partialsDir: [config.root + '/app/views/partials/']
+    partialsDir: [config.root + '/app/views/partials/'],
+    helpers: require("../app/utlis/helpers"),
   }));
   app.set('views', config.root + '/app/views');
   app.set('view engine', 'handlebars');
@@ -61,7 +62,6 @@ module.exports = (app, config) => {
     app.locals.user = ((req.user) ? req.user._doc : null) ;
     next();
   });
-
 
   app.use((req, res, next) => {
     var err = new Error('Not Found');

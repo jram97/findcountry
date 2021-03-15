@@ -3,6 +3,7 @@ const router = express.Router();
 const passport = require("passport");
 const mongoose = require('mongoose');
 const User = mongoose.model('User');
+const Table = mongoose.model('Table');
 
 module.exports = (app) => {
     app.use('/', router);
@@ -19,6 +20,20 @@ router.get('/auth', async (req, res, next) => {
                 password: "admin123"
             }
 
+            const table = {
+                name: "1",
+                flag: "1",
+                iso2: "1",
+                iso3: "1",
+                isoNumeric: "1",
+                geoNameId: "1",
+                phoneCode: "1",
+                continent: "1",
+                capital: "1",
+                currency: "1"
+            }
+
+            await new Table(table).save();
             const newUser = new User(user);
             newUser.password = await newUser.encryptPassword(user.password);
             await newUser.save();

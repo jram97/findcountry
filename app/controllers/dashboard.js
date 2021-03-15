@@ -3,6 +3,7 @@ const router = express.Router();
 const path = require("path");
 const mongoose = require('mongoose');
 const Country = mongoose.model('Country');
+const Table = mongoose.model('Table');
 
 const authenticated = require("../utlis/validation");
 
@@ -75,6 +76,26 @@ router.post('/dashboard/update/flag', authenticated.isAuthenticated, async (req,
 
     await Country.findByIdAndUpdate(id, {
         flag: img
+    })
+
+    res.redirect('/dashboard');
+});
+
+router.get('/dashboard/update/table', authenticated.isAuthenticated, async (req, res, next) => {
+    const data = await Table.find().limit(1);
+
+    res.render('select', {
+        layout: "private",
+        table: data[0]._doc || []
+    });
+});
+
+router.post('/dashboard/update/table', authenticated.isAuthenticated, async (req, res, next) => {
+
+    const { id } = req.body
+
+    await Table.findByIdAndUpdate(id, {
+        ...req.body
     })
 
     res.redirect('/dashboard');
