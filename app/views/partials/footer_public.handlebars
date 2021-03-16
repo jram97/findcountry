@@ -7,79 +7,42 @@
             <a href="/" class="logo">
               <img src="/images/logo-white-blue.svg" alt="netcom">
             </a>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum incidunt architecto soluta laboriosam,
-              perspiciatis, aspernatur officiis esse.</p>
+            <p>{{config.text}}</p>
           </div>
           <div class="contactus">
             <ul>
               <li>
                 <div class="info">
                   <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <p class="in-p">95 South Park Avenue, USA</p>
+                  <p class="in-p">{{config.dir}}</p>
                 </div>
               </li>
               <li>
                 <div class="info">
                   <i class="fa fa-phone" aria-hidden="true"></i>
-                  <p class="in-p">+456 875 369 208</p>
+                  <p class="in-p">{{config.phone}}</p>
                 </div>
               </li>
               <li>
                 <div class="info">
                   <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <p class="in-p ti">support@directoryplus.com</p>
+                  <p class="in-p ti">{{config.email}}</p>
                 </div>
               </li>
             </ul>
           </div>
-        </div>
-        <div class="col-lg-3 col-md-6">
-          <div class="widget quick-link clearfix">
-            <h3 class="widget-title">Quick Links</h3>
-            <div class="quick-links">
-              <ul class="one-half mr-5">
-                <li><a href="/">Anasayfa</a></li>
-                <li><a href="#">Hakkımızda</a></li>
-                {{#unless user}}
-                <li><a href="/auth">Oturum aç</a></li>
-                {{/unless}}
-                {{#if user}}
-                <li><a href="/dashboard">Gösterge Paneli</a></li>
-                {{/if}}
-              </ul>
-              <ul class="one-half">
-                <li><a href="#">İletişim</a></li>
-                <li><a href="#">Kullanım Koşulları</a></li>
-              </ul>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6 col-md-6">
-          <div class="newsletters">
-            <h3>Newsletters</h3>
-            <p>Sign Up for Our Newsletter to get Latest Updates and Offers. Subscribe to receive news in your inbox.
-            </p>
-          </div>
-          <form class="bloq-email mailchimp form-inline" method="post">
-            <label for="subscribeEmail" class="error"></label>
-            <div class="email">
-              <input type="email" id="subscribeEmail" name="EMAIL" placeholder="Enter Your Email">
-              <input type="submit" value="Subscribe">
-              <p class="subscription-success"></p>
-            </div>
-          </form>
         </div>
       </div>
     </div>
   </div>
   <div class="second-footer">
     <div class="container">
-      <p>Country find. ©2021 All rights reserved. </p>
+      <p>©2021 All rights reserved. </p>
       <ul class="netsocials">
-        <li><a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
-        <li><a href="#"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+        <li><a href="{{config.fb}}"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href="{{config.tw}}"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href="{{config.ins}}"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+        <li><a href="{{config.yt}}"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>

@@ -42,7 +42,7 @@ module.exports = (app, config) => {
   app.use(passport.initialize());
   app.use(passport.session());
 
-  // app.use(favicon(config.root + '/public/img/favicon.ico'));
+//  app.use(favicon(config.root + '/public/images/logo-blue.svg'));
   app.use(logger('dev'));
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({

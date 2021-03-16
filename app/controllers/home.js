@@ -3,12 +3,34 @@ const router = express.Router();
 const mongoose = require('mongoose');
 const Country = mongoose.model('Country');
 const Table = mongoose.model('Table');
+const Config = mongoose.model('Config');
+const Contact = mongoose.model('Contact');
+
 
 module.exports = (app) => {
   app.use('/', router);
 };
 
 router.get('/', async (req, res, next) => {
+
+  
+  const config = await Config.findOne({ config: "init" });
+  if (config == null) {
+    const configInit = {
+      fb: "https://www.facebook.com/Ulkekoducom",
+      ins: "http://instagram.com/ulkekodu",
+      tw: "https://twitter.com/ulkekodu",
+      yt: "https://www.youtube.com/user/ulkekodu",
+      config: "init",
+      about: "",
+      term: "",
+      text: "",
+      dir: "",
+      phone: "",
+      email: ""
+    }
+    await new Config(configInit).save();
+  }
 
   const data = await Table.find().limit(1);
 
@@ -52,7 +74,8 @@ router.get('/', async (req, res, next) => {
     res.render('index', {
       title: 'Find Country',
       country: dataFormat,
-      show: showData
+      show: showData,
+      config: ((config != null) ? config._doc : {} )
     });
 
   }).catch( err => console.log(err));
@@ -61,13 +84,47 @@ router.get('/', async (req, res, next) => {
 });
 
 router.get('/details', async (req, res, next) => {
+
+  const config = await Config.findOne({ config: "init" });
+
   Country.findOne({ iso2: req.query.country })
     .then(data => {
       res.render('details', {
         title: data._doc.name || "Not found",
-        country: data._doc || []
+        country: data._doc || [],
+        config: config._doc || {}
       });
     }).catch(err => {
       console.log(err)
     })
+});
+
+router.get('/contact', async (req, res, next) => {
+  const config = await Config.findOne({ config: "init" });
+  res.render('contact', {
+    title: "Contact",
+    config: config._doc || {}
+  });
+});
+
+router.post('/contact', async (req, res, next) => {
+  await new Contact(req.body).save();
+
+  res.redirect('/contact');
+});
+
+router.get('/term', async (req, res, next) => {
+  const config = await Config.findOne({ config: "init" });
+  res.render('term', {
+    title: "Term of Use",
+    config: config._doc || {}
+  });
+});
+
+router.get('/about', async (req, res, next) => {
+  const config = await Config.findOne({ config: "init" });
+  res.render('about', {
+    title: "About Us",
+    config: config._doc || {}
+  });
 });

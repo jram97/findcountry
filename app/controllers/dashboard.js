@@ -1,9 +1,13 @@
 const express = require('express');
 const router = express.Router();
 const path = require("path");
+const bcrypt = require('bcryptjs');
 const mongoose = require('mongoose');
 const Country = mongoose.model('Country');
 const Table = mongoose.model('Table');
+const Config = mongoose.model('Config');
+const Contact = mongoose.model('Contact');
+const User = mongoose.model('User');
 
 const authenticated = require("../utlis/validation");
 
@@ -97,6 +101,64 @@ router.post('/dashboard/update/table', authenticated.isAuthenticated, async (req
     await Table.findByIdAndUpdate(id, {
         ...req.body
     })
+
+    res.redirect('/dashboard');
+});
+
+router.get('/dashboard/config', authenticated.isAuthenticated, async (req, res, next) => {
+    const data = await Config.find().limit(1);
+
+    res.render('config', {
+        layout: "private",
+        config: data[0]._doc || []
+    });
+});
+
+router.post('/dashboard/config', authenticated.isAuthenticated, async (req, res, next) => {
+
+    const { id } = req.body
+
+    await Config.findByIdAndUpdate(id, {
+        ...req.body
+    })
+
+    res.redirect('/dashboard');
+});
+
+router.get('/dashboard/messages', authenticated.isAuthenticated, async (req, res, next) => {
+    const data = await Contact.find();
+    var dataFormat = [];
+
+    for (let index = 0; index < data.length; index++) {
+        dataFormat.push(data[index]._doc);
+    }
+    res.render('messages', {
+        layout: "private",
+        data: dataFormat || []
+    });
+});
+
+router.get('/dashboard/change', authenticated.isAuthenticated, async (req, res, next) => {
+    const data = await User.find().limit(1);
+
+    res.render('change', {
+        layout: "private",
+        q: data[0]._doc || []
+    });
+});
+
+router.post('/dashboard/change', authenticated.isAuthenticated, async (req, res, next) => {
+
+    const { password, email, id } = req.body;
+
+    const salt = await bcrypt.genSalt(10);
+    const hash = await bcrypt.hash(password, salt);
+
+    await User.updateOne(
+        { _id: id },
+        { $set: { password: hash, email: email } },
+        { new: true }
+    );
 
     res.redirect('/dashboard');
 });

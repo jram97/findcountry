@@ -3,8 +3,9 @@
         <div class="container container-header">
             <div class="left-side">
                 <div id="logo">
-                    <a href="/"><img src="/images/logo-white-blue.svg" data-sticky-logo="/images/logo-blue.svg"
-                            alt=""></a>
+                    <a href="/">
+                        <!--<img src="/images/logo-white-blue.svg" data-sticky-logo="/images/logo-blue.svg" alt="">-->
+                    </a>
                 </div>
                 <div class="mmenu-trigger">
                     <button class="hamburger hamburger--collapse" type="button">
@@ -15,12 +16,16 @@
                 </div>
                 <nav id="navigation" class="style-1 head-tr">
                     <ul id="responsive">
-                        <li><a href="/">Anasayfa</a>
-                        </li>
-                        <li><a href="#">İletişim</a></li>
+                        <li><a href="/">Anasayfa</a></li>
+                        <li><a href="/about">Hakkımızda</a></li>
+                        <li><a href="/term">Kullanım Koşulları</a></li>
+                        <li><a href="/contact">İletişim</a></li>
                         {{#if user}}
                         <li><a href="/dashboard">Gösterge Paneli</a></li>
                         {{/if}}
+                        {{#unless user}}
+                        <li><a href="/auth">oturum aç</a></li>
+                        {{/unless}}
                     </ul>
                 </nav>
             </div>

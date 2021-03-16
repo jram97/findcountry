@@ -1,0 +1,39 @@
+<div class="page-wrapper">
+    {{> menu}}
+    <div class="page-container">
+        {{> notification }}
+        <div class="main-content">
+            <div class="section__content section__content--p30">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-header">
+                                    <strong>Messages </strong>
+                                </div>
+                                <div class="card-body card-block">
+                                    <div class="chat_list">
+                                        <ul class="list-group">
+                                            {{#each data}}
+                                            <li class="list-group-item">
+                                                <small class="pull-right text-muted">{{timeago createdAt}}</small>
+                                                <div>
+                                                    <small
+                                                        class="list-group-item-heading text-muted text-primary">{{name}},
+                                                        {{phone}}</small>
+                                                    <p class="list-group-item-text">{{msg}}</p>
+                                                </div>
+                                            </li>
+                                            {{/each}}
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    {{> footer}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
