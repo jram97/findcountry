@@ -1,7 +1,7 @@
 jQuery(document).on('ready', function ($) {
     const searchParams = new URLSearchParams(window.location.search)
 
-    if(searchParams.has('country')){
+    /*if(searchParams.has('country')){
         fetch('https://restcountries.eu/rest/v2/alpha/' + searchParams.get('country'))
         .then(response => response.json())
         .then(data => {
@@ -16,6 +16,6 @@ jQuery(document).on('ready', function ($) {
                 $('#local-time').html(moment().tz(getTimeZone.timezones[0]).format('hh:mm:ss A'));
             }, 100);
         });
-    }
+    }*/
 
 }(jQuery));

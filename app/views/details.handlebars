@@ -15,25 +15,62 @@
             <ul class="popular-searchs">
               <li>
                 <a href="#" class="blue">
-                  <span class="box ">
-                    +{{country.phoneCode}}
-                    <span>COUNTRY CALLING CODE</span>
+                  <span class="box">
+                    <h2 class="text-center" style="font-size: 86px;"><sup
+                        style="font-size: 35px; top: -35px">+</sup>{{country.phoneCode}}</h2>
+                    <p class="text-uppercase" style="font-size: 12px;">COUNTRY CALLING CODE</p>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#" class="green">
+                <div class="row">
+                  <a href="#" class="green">
+                    <span class="box">
+                      <div class="text-center">
+                        <h2 class="text-center" style="font-size: 45px;">{{country.iso2}}</h2>
+                        <p class="text-uppercase" style="font-size: 10px;">2 DIGIT ISO</p>
+                      </div>
+                    </span>
+                  </a>
+                </div>
+                <div class="row">
+                  <a href="#" class="green">
+                    <span class="box">
+                      <h2 class="text-center" style="font-size: 45px;">{{country.iso3}}</h2>
+                      <p class="text-center" style="font-size: 10px;">3 DIGIT ISO</p>
+                    </span>
+                  </a>
+                </div>
+              </li>
+            </ul>
+            <ul class="popular-searchs">
+              <li>
+                <a href="#">
                   <span class="box">
-                    {{country.iso2}}
-                    <span>2 DIGIT ISO</span>
+                    <h2 class="text-center" style="font-size: 30px;">{{country.isoNumeric}}</h2>
+                    <div style="position:relative; top:2px;">
+                      <p class="text-center" style="font-size: 12px;">ISO NUMERIC</p>
+                    </div>
                   </span>
                 </a>
               </li>
               <li>
-                <a href="#" class="green">
+                <a href="#">
                   <span class="box">
-                    {{country.iso3}}
-                    <span>3 DIGIT ISO</span>
+                    <h2 class="text-center" style="font-size: 20px;">{{country.capital}}</h2>
+                    <div style="position:relative; top:10px;">
+                      <p class="text-center" style="font-size: 12px;">CAPITAL</p>
+                    </div>
+                  </span>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span class="box">
+                    <h2 class="text-center" style="font-size: 20px;">{{country.currency}}</h2>
+                    <div style="position:relative; top:10px;">
+                      <p class="text-center" style="font-size: 12px;">CURRENCY</p>
+                    </div>
                   </span>
                 </a>
               </li>

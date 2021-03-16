@@ -1069,11 +1069,10 @@ a.button,
 .homepage-1 .popular-searchs li a {
     display: inline-block;
     text-decoration: none;
-    width: 150px;
-    height: 150px;
+    width: 180px;
+    height: 100px;
     margin-right: 15px;
     background: rgba(255, 255, 255, 0.12);
-    padding-top: 21px;
     color: #ffffff;
     font-size: 28px;
     border-radius: 4px;
@@ -1085,13 +1084,11 @@ a.button,
 .homepage-1 .popular-searchs li .green {
     display: inline-block;
     text-decoration: none;
-    width: 150px;
-    height: 150px;
-    margin-right: 15px;
+    margin: 5px;
+    width: 110px;
+    height: 105px;
     background: #0aa258;
-    padding-top: 21px;
     color: #ffffff;
-    font-size: 28px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-transition: all ease .5s;
@@ -1101,27 +1098,43 @@ a.button,
 .homepage-1 .popular-searchs li .blue {
     display: inline-block;
     text-decoration: none;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 220px;
     margin-right: 15px;
     background: #0F78B4;
     padding-top: 21px;
     color: #ffffff;
-    font-size: 28px;
     border-radius: 4px;
     border: 1px solid rgba(255, 255, 255, 0.2);
     -webkit-transition: all ease .5s;
     transition: all ease .5s;
 }
 
-.homepage-1 .popular-searchs li a .box span {
-    font-size: 16px;
+.homepage-1 .popular-searchs li a .box {
+    font-size: 50px;
     text-align: center;
     color: #fff;
     margin-top: 10px;
-    font-weight: 400;
+    font-weight: 200;
     display: block;
 }
+
+.homepage-1 .popular-searchs li a .box h2 {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    display: block;
+}
+
+.homepage-1 .popular-searchs li a .box span {
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    font-weight: 200;
+    display: block;
+}
+
 
 @media (min-width: 992px) {
     .homepage-1 .rld-main-search .rld-single-input,
