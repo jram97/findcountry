@@ -23,17 +23,17 @@
                                 {{#if show.iso3}}
                                 <th>ISO 3</th>
                                 {{/if}}
-                                {{#if show.continent}}
-                                <th>CONTINENT</th>
-                                {{/if}}
                                 {{#if show.isoNumeric}}
                                 <th>ISO NUMERIC</th>
+                                {{/if}}
+                                {{#if show.currency}}
+                                <th>CURRENCY</th>
                                 {{/if}}
                                 {{#if show.capital}}
                                 <th>CAPITAL</th>
                                 {{/if}}
-                                {{#if show.currency}}
-                                <th>CURRENCY</th>
+                                {{#if show.continent}}
+                                <th>CONTINENT</th>
                                 {{/if}}
                             </tr>
                         </thead>
@@ -41,14 +41,14 @@
                             {{#each country}}
                             <tr>
                                 {{#if ../show.flag}}
-                                <th>
+                                <td>
                                     {{#if flag}}
                                     <img src="/flags{{flag}}" width="30px" height="30px" />
                                     {{/if}}
-                                </th>
+                                </td>
                                 {{/if}}
                                 {{#if ../show.name}}
-                                <th scope="row"><a href="/details?country={{iso2}}">{{name}}</a></th>
+                                <td scope="row"><a href="/details?country={{iso2}}">{{name}}</a></d>
                                 {{/if}}
                                 {{#if ../show.phoneCode}}
                                 <td>{{phoneCode}}</td>
@@ -59,7 +59,7 @@
                                 {{#if ../show.iso3}}
                                 <td>{{iso3}}</td>
                                 {{/if}}
-                                {{#if ../show.continet}}
+                                {{#if ../show.continent}}
                                 <td>{{continent}}</td>
                                 {{/if}}
                                 {{#if ../show.isoNumeric}}
